@@ -1,0 +1,26 @@
+[app.global]
+serviceName = "test-cron"
+environment = "dev"
+
+[cron.testcron1]
+spec = "*/3 * * * * *"
+enableDistributedTask = false
+enableSeconds = true      # 是否使用秒作解析器，默认否
+delayExecType = "skip"  # skip，queue，concurrent
+
+[cron.testcron2]
+spec = "*/5 * * * * *"
+enableDistributedTask = false
+enableSeconds = true      # 是否使用秒作解析器，默认否
+delayExecType = "skip"  # skip，queue，concurrent
+
+[redis.cron]
+debug = true
+addr = "47.102.46.124:12333"
+password = "feige@dev!"
+
+[cron.discron]
+spec = "*/10 * * * * *"
+enableDistributedTask = true
+enableSeconds = true      # 是否使用秒作解析器，默认否
+delayExecType = "skip"  # skip，queue，concurrent

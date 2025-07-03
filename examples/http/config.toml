@@ -1,0 +1,40 @@
+[app.global]
+serviceName = "http-demo"
+environment = "dev"
+
+[server.http]
+port = 9009
+grace = false
+HookReq = true
+HookRsp = true
+HookTrace = true
+
+[mysql.default]
+dsn = "root:mysqlATdev10086@tcp(106.14.241.59:10086)/feige_crm?charset=utf8&parseTime=True&loc=Local&readTimeout=1s&timeout=1s&writeTimeout=3s"
+debug = true
+hookReq = true
+hookRsp = true
+hookTrace = true
+
+[server.httpgovern]
+host = "0.0.0.0"
+port = 9012
+
+[logger.flygo]
+writer = "stderr"
+
+[logger.default]
+writer = "stderr"
+
+[trace]
+serviceName = "http-demo"
+OtelType = "jaeger"
+Fraction = 1.0
+
+[trace.jaeger]
+AgentHost = "106.14.241.59"
+AgentPort = "6831"
+CollectorEndpoint = "http://106.14.241.59:14268/api/traces"
+
+[trace.Otlp]
+Endpoint = "106.14.241.59:4317"

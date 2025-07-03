@@ -1,0 +1,3 @@
+[app.global]
+serviceName = "test-job"
+environment = "dev"

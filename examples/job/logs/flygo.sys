@@ -1,0 +1,2 @@
+{"level":"info","time":1681457060000,"caller":"flygo/flygo.go:402","body":"setup max procs","service.name":"","net.host.ip":"192.168.0.136","deployment.environment":"staging","cpt":"app","value":20}
+{"level":"info","time":1681457060000,"caller":"flygo/flygo.go:186","body":"stop Flygo.","service.name":"","net.host.ip":"192.168.0.136","deployment.environment":"staging","cpt":"app"}

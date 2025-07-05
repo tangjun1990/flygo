@@ -1,9 +1,10 @@
 package kcron
 
 import (
-	"git.4321.sh/feige/flygo/core"
 	"sync/atomic"
 	"time"
+
+	"github.com/tangjun1990/flygo/core"
 )
 
 type immediatelyScheduler struct {

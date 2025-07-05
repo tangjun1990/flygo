@@ -2,20 +2,21 @@ package kgorm
 
 import (
 	"fmt"
-	"git.4321.sh/feige/flygo/core/ktrace"
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/codes"
-	semconv "go.opentelemetry.io/otel/semconv/v1.7.0"
-	"go.opentelemetry.io/otel/trace"
 	"log"
 	"strconv"
 	"strings"
 	"time"
 
-	"git.4321.sh/feige/flygo/component/client/kgorm/dsn"
+	"github.com/tangjun1990/flygo/core/ktrace"
+	"go.opentelemetry.io/otel/attribute"
+	"go.opentelemetry.io/otel/codes"
+	semconv "go.opentelemetry.io/otel/semconv/v1.7.0"
+	"go.opentelemetry.io/otel/trace"
 
-	"git.4321.sh/feige/flygo/core/klog"
-	"git.4321.sh/feige/flygo/core/utils/xdebug"
+	"github.com/tangjun1990/flygo/component/client/kgorm/dsn"
+
+	"github.com/tangjun1990/flygo/core/klog"
+	"github.com/tangjun1990/flygo/core/utils/xdebug"
 	"gorm.io/gorm"
 )
 

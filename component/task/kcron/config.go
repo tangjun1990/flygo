@@ -3,8 +3,8 @@ package kcron
 import (
 	"time"
 
-	"git.4321.sh/feige/flygo/core/utils/xtime"
 	"github.com/robfig/cron/v3"
+	"github.com/tangjun1990/flygo/core/utils/xtime"
 )
 
 type Config struct {

@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"git.4321.sh/feige/flygo/core/utils/xcolor"
+	"github.com/tangjun1990/flygo/core/utils/xcolor"
 )
 
 // MakeReqResInfo ...

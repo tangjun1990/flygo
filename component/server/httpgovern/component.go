@@ -3,17 +3,18 @@ package httpgovern
 import (
 	"context"
 	"encoding/json"
-	"git.4321.sh/feige/flygo/component/server"
-	"git.4321.sh/feige/flygo/core/kapp"
-	"git.4321.sh/feige/flygo/core/kcfg"
-	"git.4321.sh/feige/flygo/core/klog"
-	jsoniter "github.com/json-iterator/go"
-	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"net"
 	"net/http"
 	"net/http/pprof"
 	"os"
 	"time"
+
+	jsoniter "github.com/json-iterator/go"
+	"github.com/prometheus/client_golang/prometheus/promhttp"
+	"github.com/tangjun1990/flygo/component/server"
+	"github.com/tangjun1990/flygo/core/kapp"
+	"github.com/tangjun1990/flygo/core/kcfg"
+	"github.com/tangjun1990/flygo/core/klog"
 )
 
 var (

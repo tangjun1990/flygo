@@ -3,8 +3,9 @@ package kgorm
 import (
 	"context"
 	"errors"
-	"git.4321.sh/feige/flygo/component/client/kgorm/dsn"
-	"git.4321.sh/feige/flygo/core/klog"
+
+	"github.com/tangjun1990/flygo/component/client/kgorm/dsn"
+	"github.com/tangjun1990/flygo/core/klog"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/schema"

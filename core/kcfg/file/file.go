@@ -11,9 +11,9 @@ import (
 
 	"github.com/fsnotify/fsnotify"
 
-	"git.4321.sh/feige/flygo/core/kcfg"
-	"git.4321.sh/feige/flygo/core/kcfg/manager"
-	"git.4321.sh/feige/flygo/core/utils/xgo"
+	"github.com/tangjun1990/flygo/core/kcfg"
+	"github.com/tangjun1990/flygo/core/kcfg/manager"
+	"github.com/tangjun1990/flygo/core/utils/xgo"
 )
 
 type fileDataSource struct {

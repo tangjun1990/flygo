@@ -2,11 +2,12 @@ package kcronlock
 
 import (
 	"context"
-	kredis2 "git.4321.sh/feige/flygo/component/client/kredis"
 	"sync"
 	"time"
 
-	"git.4321.sh/feige/flygo/core/klog"
+	kredis2 "github.com/tangjun1990/flygo/component/client/kredis"
+
+	"github.com/tangjun1990/flygo/core/klog"
 )
 
 type redisLock struct {

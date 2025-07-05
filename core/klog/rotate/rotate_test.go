@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"git.4321.sh/feige/flygo/core/klog/rotate"
+	"github.com/tangjun1990/flygo/core/klog/rotate"
 )
 
 // Example of how to rotate in response to SIGHUP.

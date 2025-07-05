@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"git.4321.sh/feige/flygo/core/kapp"
+	"github.com/tangjun1990/flygo/core/kapp"
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

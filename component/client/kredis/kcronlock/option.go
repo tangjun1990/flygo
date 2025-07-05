@@ -1,7 +1,7 @@
 package kcronlock
 
 import (
-	"git.4321.sh/feige/flygo/component/client/kredis"
+	"github.com/tangjun1990/flygo/component/client/kredis"
 )
 
 func WithClient(client *kredis.Component) Option {

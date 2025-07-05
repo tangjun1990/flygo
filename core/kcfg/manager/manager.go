@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"os"
 
-	"git.4321.sh/feige/flygo/core/kcfg"
 	"github.com/BurntSushi/toml"
+	"github.com/tangjun1990/flygo/core/kcfg"
 )
 
 var (

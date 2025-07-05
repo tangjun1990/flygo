@@ -2,11 +2,12 @@ package kjob
 
 import (
 	"context"
-	"git.4321.sh/feige/flygo/core"
 	"time"
 
-	"git.4321.sh/feige/flygo/core/kflag"
-	"git.4321.sh/feige/flygo/core/klog"
+	"github.com/tangjun1990/flygo/core"
+
+	"github.com/tangjun1990/flygo/core/kflag"
+	"github.com/tangjun1990/flygo/core/klog"
 )
 
 func init() {

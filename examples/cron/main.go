@@ -4,11 +4,12 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"git.4321.sh/feige/flygo"
-	kredis2 "git.4321.sh/feige/flygo/component/client/kredis"
-	kcronlock2 "git.4321.sh/feige/flygo/component/client/kredis/kcronlock"
-	kcron2 "git.4321.sh/feige/flygo/component/task/kcron"
-	"git.4321.sh/feige/flygo/core/klog"
+
+	"github.com/tangjun1990/flygo"
+	kredis2 "github.com/tangjun1990/flygo/component/client/kredis"
+	kcronlock2 "github.com/tangjun1990/flygo/component/client/kredis/kcronlock"
+	kcron2 "github.com/tangjun1990/flygo/component/task/kcron"
+	"github.com/tangjun1990/flygo/core/klog"
 	"go.uber.org/zap"
 )
 

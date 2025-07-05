@@ -3,9 +3,10 @@ package main
 import (
 	"context"
 	"fmt"
-	flygo "git.4321.sh/feige/flygo"
-	kjob2 "git.4321.sh/feige/flygo/component/task/kjob"
-	"git.4321.sh/feige/flygo/core/klog"
+
+	flygo "github.com/tangjun1990/flygo"
+	kjob2 "github.com/tangjun1990/flygo/component/task/kjob"
+	"github.com/tangjun1990/flygo/core/klog"
 	"go.uber.org/zap"
 )
 

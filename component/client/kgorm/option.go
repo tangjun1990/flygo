@@ -1,7 +1,7 @@
 package kgorm
 
 import (
-	"git.4321.sh/feige/flygo/component/client/kgorm/dsn"
+	"github.com/tangjun1990/flygo/component/client/kgorm/dsn"
 )
 
 type Option func(c *Container)

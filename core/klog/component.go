@@ -3,18 +3,19 @@ package klog
 import (
 	"context"
 	"fmt"
-	"git.4321.sh/feige/flygo/core/ktrace"
 	"log"
 	"os"
 	"runtime"
 	"strings"
 	"time"
 
+	"github.com/tangjun1990/flygo/core/ktrace"
+
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"git.4321.sh/feige/flygo/core/kcfg"
-	"git.4321.sh/feige/flygo/core/utils/xcolor"
+	"github.com/tangjun1990/flygo/core/kcfg"
+	"github.com/tangjun1990/flygo/core/utils/xcolor"
 )
 
 const (

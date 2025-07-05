@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"git.4321.sh/feige/flygo/core/utils/xcolor"
-	"git.4321.sh/feige/flygo/core/utils/xtime"
+	"github.com/tangjun1990/flygo/core/utils/xcolor"
+	"github.com/tangjun1990/flygo/core/utils/xtime"
 )
 
 var (
@@ -51,7 +51,7 @@ func init() {
 	info, ok := debug.ReadBuildInfo()
 	if ok {
 		for _, value := range info.Deps {
-			if value.Path == "git.4321.sh/feige/flygo" {
+			if value.Path == "github.com/tangjun1990/flygo" {
 				flygoVersion = value.Version
 			}
 		}

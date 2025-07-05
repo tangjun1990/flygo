@@ -5,8 +5,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"git.4321.sh/feige/flygo/core/kcfg"
-	"git.4321.sh/feige/flygo/core/klog"
+	"github.com/tangjun1990/flygo/core/kcfg"
+	"github.com/tangjun1990/flygo/core/klog"
 
 	"github.com/robfig/cron/v3"
 )

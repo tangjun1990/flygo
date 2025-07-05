@@ -3,10 +3,11 @@ package kredis
 import (
 	"context"
 	"fmt"
-	"git.4321.sh/feige/flygo/core/kapp"
-	"git.4321.sh/feige/flygo/core/kcfg"
-	"git.4321.sh/feige/flygo/core/klog"
+
 	"github.com/go-redis/redis/v8"
+	"github.com/tangjun1990/flygo/core/kapp"
+	"github.com/tangjun1990/flygo/core/kcfg"
+	"github.com/tangjun1990/flygo/core/klog"
 )
 
 type Option func(c *Container)

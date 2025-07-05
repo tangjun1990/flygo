@@ -3,7 +3,7 @@ package kgorm
 import (
 	"sync"
 
-	"git.4321.sh/feige/flygo/core/klog"
+	"github.com/tangjun1990/flygo/core/klog"
 )
 
 var instances = sync.Map{}

@@ -3,7 +3,7 @@ package klog
 import (
 	"io"
 
-	"git.4321.sh/feige/flygo/core/klog/rotate"
+	"github.com/tangjun1990/flygo/core/klog/rotate"
 )
 
 func newRotate(config *Config) io.Writer {

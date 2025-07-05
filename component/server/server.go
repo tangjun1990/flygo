@@ -3,10 +3,11 @@ package server
 import (
 	"context"
 	"fmt"
-	"git.4321.sh/feige/flygo/core"
-	"git.4321.sh/feige/flygo/core/kflag"
 
-	"git.4321.sh/feige/flygo/core/kapp"
+	"github.com/tangjun1990/flygo/core"
+	"github.com/tangjun1990/flygo/core/kflag"
+
+	"github.com/tangjun1990/flygo/core/kapp"
 )
 
 type Option func(c *ServiceInfo)

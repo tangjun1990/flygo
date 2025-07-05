@@ -3,10 +3,11 @@ package xgpool
 import (
 	"context"
 	"errors"
-	"git.4321.sh/feige/flygo/core/klog"
 	"reflect"
 	"sort"
 	"time"
+
+	"github.com/tangjun1990/flygo/core/klog"
 )
 
 var TimeoutErr = errors.New("xgpool timeout")

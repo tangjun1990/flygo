@@ -1,10 +1,11 @@
 package kredis
 
 import (
-	"github.com/go-redis/redis/v8"
 	"time"
 
-	"git.4321.sh/feige/flygo/core/utils/xtime"
+	"github.com/go-redis/redis/v8"
+
+	"github.com/tangjun1990/flygo/core/utils/xtime"
 )
 
 const (

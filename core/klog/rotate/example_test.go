@@ -3,7 +3,7 @@ package rotate_test
 import (
 	"log"
 
-	"git.4321.sh/feige/flygo/core/klog/rotate"
+	"github.com/tangjun1990/flygo/core/klog/rotate"
 )
 
 // To use rotate with the standard library's log package, just pass it into

@@ -2,9 +2,10 @@ package ktrace
 
 import (
 	"fmt"
-	"git.4321.sh/feige/flygo/core/utils/xstring"
 	"net/http"
 	"strings"
+
+	"github.com/tangjun1990/flygo/core/utils/xstring"
 
 	"google.golang.org/grpc/metadata"
 )

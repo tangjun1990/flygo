@@ -3,7 +3,7 @@ package httpgovern
 import (
 	"fmt"
 
-	"git.4321.sh/feige/flygo/core/utils/xnet"
+	"github.com/tangjun1990/flygo/core/utils/xnet"
 )
 
 // Config 配置

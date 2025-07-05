@@ -3,15 +3,16 @@ package kin
 import (
 	"context"
 	"fmt"
-	"git.4321.sh/feige/flygo/component/server"
-	"git.4321.sh/feige/flygo/core/kapp"
 	"net"
 	"net/http"
 	"strings"
 	"sync"
 
-	"git.4321.sh/feige/flygo/core/klog"
+	"github.com/tangjun1990/flygo/component/server"
+	"github.com/tangjun1990/flygo/core/kapp"
+
 	"github.com/gin-gonic/gin"
+	"github.com/tangjun1990/flygo/core/klog"
 )
 
 const PackageName = "server.kin"

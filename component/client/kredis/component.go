@@ -1,8 +1,8 @@
 package kredis
 
 import (
-	"git.4321.sh/feige/flygo/core/klog"
 	"github.com/go-redis/redis/v8"
+	"github.com/tangjun1990/flygo/core/klog"
 )
 
 const PackageName = "component.kredis"

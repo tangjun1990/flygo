@@ -3,13 +3,14 @@ package kcron
 import (
 	"context"
 	"fmt"
-	"github.com/robfig/cron/v3"
 	"time"
+
+	"github.com/robfig/cron/v3"
 
 	"go.uber.org/zap"
 
-	"git.4321.sh/feige/flygo/core/klog"
-	"git.4321.sh/feige/flygo/core/utils/xstring"
+	"github.com/tangjun1990/flygo/core/klog"
+	"github.com/tangjun1990/flygo/core/utils/xstring"
 )
 
 const PackageName = "core.kcron"

@@ -1,7 +1,7 @@
 package kcronlock
 
 import (
-	"git.4321.sh/feige/flygo/core/kapp"
+	"github.com/tangjun1990/flygo/core/kapp"
 )
 
 type Config struct {

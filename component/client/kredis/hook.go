@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"git.4321.sh/feige/flygo/core/klog"
-	"git.4321.sh/feige/flygo/core/utils/xdebug"
+	"github.com/tangjun1990/flygo/core/klog"
+	"github.com/tangjun1990/flygo/core/utils/xdebug"
 
 	"github.com/go-redis/redis/v8"
 )

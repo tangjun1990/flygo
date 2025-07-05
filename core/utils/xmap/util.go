@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"git.4321.sh/feige/flygo/core/utils/xcast"
+	"github.com/tangjun1990/flygo/core/utils/xcast"
 )
 
 // MergeStringMap merge two map

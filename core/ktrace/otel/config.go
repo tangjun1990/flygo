@@ -2,9 +2,10 @@ package otel
 
 import (
 	"context"
-	"git.4321.sh/feige/flygo/core/kapp"
-	"git.4321.sh/feige/flygo/core/kcfg"
-	"git.4321.sh/feige/flygo/core/klog"
+
+	"github.com/tangjun1990/flygo/core/kapp"
+	"github.com/tangjun1990/flygo/core/kcfg"
+	"github.com/tangjun1990/flygo/core/klog"
 
 	jaegerv2 "go.opentelemetry.io/otel/exporters/jaeger"
 	"go.opentelemetry.io/otel/exporters/otlp/otlptrace"

@@ -1,11 +1,12 @@
 package kcronlock
 
 import (
-	"git.4321.sh/feige/flygo/component/client/kredis"
-	"git.4321.sh/feige/flygo/component/task/kcron"
 	"sync"
 
-	"git.4321.sh/feige/flygo/core/klog"
+	"github.com/tangjun1990/flygo/component/client/kredis"
+	"github.com/tangjun1990/flygo/component/task/kcron"
+
+	"github.com/tangjun1990/flygo/core/klog"
 )
 
 type Component struct {

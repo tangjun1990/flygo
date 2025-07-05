@@ -1,12 +1,12 @@
 package main
 
 import (
-	flygo "git.4321.sh/feige/flygo"
-	"git.4321.sh/feige/flygo/component/server/httpgovern"
-	kin2 "git.4321.sh/feige/flygo/component/server/kin"
-	"git.4321.sh/feige/flygo/core/klog"
-	"git.4321.sh/feige/flygo/core/ktrace"
 	"github.com/gin-gonic/gin"
+	flygo "github.com/tangjun1990/flygo"
+	"github.com/tangjun1990/flygo/component/server/httpgovern"
+	kin2 "github.com/tangjun1990/flygo/component/server/kin"
+	"github.com/tangjun1990/flygo/core/klog"
+	"github.com/tangjun1990/flygo/core/ktrace"
 )
 
 // go run main.go --config=config.toml, then visit http://127.0.0.1:9009/api/v1/hello

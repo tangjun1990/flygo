@@ -4,11 +4,6 @@ import (
 	"bytes"
 	"encoding/base64"
 	"fmt"
-	"git.4321.sh/feige/flygo/core/ktrace"
-	"git.4321.sh/feige/flygo/core/utils/xcontext"
-	"go.opentelemetry.io/otel/attribute"
-	"go.opentelemetry.io/otel/propagation"
-	"go.opentelemetry.io/otel/trace"
 	"io/ioutil"
 	"net"
 	"net/http"
@@ -17,14 +12,20 @@ import (
 	"strings"
 	"time"
 
+	"github.com/tangjun1990/flygo/core/ktrace"
+	"github.com/tangjun1990/flygo/core/utils/xcontext"
+	"go.opentelemetry.io/otel/attribute"
+	"go.opentelemetry.io/otel/propagation"
+	"go.opentelemetry.io/otel/trace"
+
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/cast"
 	semconv "go.opentelemetry.io/otel/semconv/v1.7.0"
 	"go.uber.org/zap"
 
-	"git.4321.sh/feige/flygo/core/kapp"
-	"git.4321.sh/feige/flygo/core/klog"
-	"git.4321.sh/feige/flygo/core/kmetric"
+	"github.com/tangjun1990/flygo/core/kapp"
+	"github.com/tangjun1990/flygo/core/klog"
+	"github.com/tangjun1990/flygo/core/kmetric"
 )
 
 // 拦截器

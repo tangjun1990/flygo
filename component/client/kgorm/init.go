@@ -3,8 +3,8 @@ package kgorm
 import (
 	"time"
 
-	"git.4321.sh/feige/flygo/core/klog"
-	"git.4321.sh/feige/flygo/core/kmetric"
+	"github.com/tangjun1990/flygo/core/klog"
+	"github.com/tangjun1990/flygo/core/kmetric"
 )
 
 func init() {

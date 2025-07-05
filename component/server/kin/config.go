@@ -6,8 +6,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"git.4321.sh/feige/flygo/core/kflag"
-	"git.4321.sh/feige/flygo/core/utils/xtime"
+	"github.com/tangjun1990/flygo/core/kflag"
+	"github.com/tangjun1990/flygo/core/utils/xtime"
 )
 
 type Config struct {

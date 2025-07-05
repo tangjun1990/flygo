@@ -1,10 +1,11 @@
 package klog
 
 import (
-	"git.4321.sh/feige/flygo/core/kapp"
-	"git.4321.sh/feige/flygo/core/kcfg"
-	"git.4321.sh/feige/flygo/core/utils/xnet"
 	"os"
+
+	"github.com/tangjun1990/flygo/core/kapp"
+	"github.com/tangjun1990/flygo/core/kcfg"
+	"github.com/tangjun1990/flygo/core/utils/xnet"
 )
 
 // Container 容器

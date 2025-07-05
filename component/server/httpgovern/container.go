@@ -1,9 +1,9 @@
 package httpgovern
 
 import (
-	"git.4321.sh/feige/flygo/core/kcfg"
-	"git.4321.sh/feige/flygo/core/kflag"
-	"git.4321.sh/feige/flygo/core/klog"
+	"github.com/tangjun1990/flygo/core/kcfg"
+	"github.com/tangjun1990/flygo/core/kflag"
+	"github.com/tangjun1990/flygo/core/klog"
 )
 
 type Container struct {

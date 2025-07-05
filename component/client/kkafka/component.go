@@ -1,9 +1,10 @@
 package kkafka
 
 import (
-	"git.4321.sh/feige/flygo/core/klog"
-	"github.com/Shopify/sarama"
 	"sync"
+
+	"github.com/Shopify/sarama"
+	"github.com/tangjun1990/flygo/core/klog"
 )
 
 const PackageName = "component.kkafka"

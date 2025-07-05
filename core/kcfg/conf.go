@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"git.4321.sh/feige/flygo/core/utils/xcast"
-	"git.4321.sh/feige/flygo/core/utils/xmap"
 	"github.com/mitchellh/mapstructure"
+	"github.com/tangjun1990/flygo/core/utils/xcast"
+	"github.com/tangjun1990/flygo/core/utils/xmap"
 )
 
 const PackageName = "core.kcfg"

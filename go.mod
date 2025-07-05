@@ -1,4 +1,4 @@
-module git.4321.sh/feige/flygo
+module github.com/tangjun1990/flygo
 
 go 1.18
 
